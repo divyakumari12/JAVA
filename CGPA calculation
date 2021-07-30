@@ -1,0 +1,21 @@
+import java.util.Scanner;
+public class Main
+{
+	public static void main(String[] args) {
+	System.out.println("Taking input from the user: ");
+	Scanner sc = new Scanner(System.in);
+	System.out.println(" Enter Subject 1 Marks: ");
+	int a= sc.nextInt();
+	
+		System.out.println(" Enter Subject 2 Marks: ");
+	int b= sc.nextInt();
+	
+		System.out.println(" Enter Subject 3 Marks: ");
+	int c= sc.nextInt();
+	
+	
+	float cgpa=(a+b+c)/30;
+	System.out.println("CGPA is: ");
+	System.out.println(cgpa);
+	}
+}
