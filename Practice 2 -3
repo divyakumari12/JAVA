@@ -1,0 +1,15 @@
+PROBLEM: USE COMPARISION OPERATORS TO FIND OUT WHETHER A GIVEN NUMBER IS GREATER THAN THE USER ENTERED NUMBER OR NOT :-
+
+
+import java.util.Scanner;
+public class Main
+{
+	public static void main(String[] args) {
+	System.out.println("Taking input from the user :");
+	Scanner sc = new Scanner (System.in);
+	System.out.println("Enter the number :");
+	int a = sc.nextInt();
+	System.out.println(a>8);
+
+	}
+}
