@@ -1,0 +1,12 @@
+PROBLEM:  WRITE THE FOLLOWING EXPRESSION IN A JAVA PROGRAM:-
+
+
+
+import java.util.Scanner;
+public class Main
+{
+	public static void main(String[] args) {
+	System.out.println("(v*v - u*u) / 2as:");
+	
+	}
+}
