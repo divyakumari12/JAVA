@@ -1,0 +1,10 @@
+Problem :- 
+Write a Java Program to convert a string to LowerCase.
+
+public class Main
+{
+	public static void main(String[] args) {
+		String s = "SiDhaRth";
+		System.out.println(s.toLowerCase());
+	}
+}
