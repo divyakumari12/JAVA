@@ -1,0 +1,46 @@
+public class Main
+{
+	public static void main(String[] args) {
+	    // String Methods in java
+	    
+		//String name = "Divya";
+		String name = new String("Divya");// can declare by both method
+		System.out.println(name);
+		
+		int value = name.length();
+		System.out.println(value);
+		
+		String lstring = name.toLowerCase();
+		System.out.println(lstring);
+		
+	    String ustring = name.toUpperCase();
+		System.out.println(ustring);
+		
+		String nonTrimmedString = "     Divya";//prints the spaces
+		System.out.println(nonTrimmedString);
+		
+		String trimmedString = "Sidharth";
+		System.out.println(trimmedString.trim()); 
+		
+		System.out.println(name.substring(2)); //Divya; D at 0, i at 1, v,y,a at 2,3,4..so it printed letters onwards 2
+		
+		System.out.println(name.substring(2,4));// takes till end-1; (2,3)
+		
+		System.out.println(name.replace('D', 'v'));
+		
+		System.out.println(name.replace("Div", "Vid"));
+		
+		System.out.println(name.startsWith("Di"));// true or False
+		
+		System.out.println(name.endsWith("Di"));// true or False
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+}
