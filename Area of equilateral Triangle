@@ -1,0 +1,15 @@
+import java.util.Scanner;
+
+public class Main
+{
+	public static void main(String[] args) {
+	Scanner sc = new Scanner(System.in);
+	
+	
+	System.out.println("Enter the side of the eq triangle: ");
+	int side = sc.nextInt();
+	
+	double area = 0.25 * 1.73205081 * side * side;
+	System.out.println("Area of the Equilateral Triangle is: "+area);
+	}
+}
