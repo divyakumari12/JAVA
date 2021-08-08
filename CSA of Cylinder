@@ -1,0 +1,17 @@
+import java.util.Scanner;
+public class Main
+{
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Enter radius: ");
+		int r = sc.nextInt();
+		
+		System.out.println("Enter height: ");
+		int h = sc.nextInt();
+		
+		double CSA = 2*3.14*r*h;
+		System.out.println("Curved Surface Area of Cylinder is " +CSA);
+		
+	}
+}
