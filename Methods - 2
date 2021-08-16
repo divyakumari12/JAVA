@@ -1,0 +1,16 @@
+import java.util.Scanner;
+public class Main
+{
+	public static void main(String[] args) {
+	greeting();
+	greeting();
+	greeting();
+	greeting();
+	greeting();//call as many ties we want.
+	
+	}
+	
+    static void greeting(){
+	System.out.println("Hello Divya");
+	}
+}
